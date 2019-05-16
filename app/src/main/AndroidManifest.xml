@@ -22,7 +22,8 @@
         </activity>
         <activity android:name=".Register" />
         <activity android:name=".Record" />
-        <activity android:name=".UserLanding"></activity>
+        <activity android:name=".UserLanding" />
+        <activity android:name=".SoundExperiment"></activity>
     </application>
 
 </manifest>

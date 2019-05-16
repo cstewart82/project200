@@ -73,6 +73,9 @@ public class Record extends AppCompatActivity {
                         btnPlay.setEnabled(false);
                         btnStop.setEnabled(false);
 
+                        //Including the below to attempt to solve the issue of "stop recording" button not being enabled on second record.
+                        btnStopRecord.setEnabled(true);
+
                         Toast.makeText(Record.this, "Recording...", Toast.LENGTH_SHORT).show();
 
                     } else {

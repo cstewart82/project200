@@ -45,6 +45,12 @@ public class LogInActivity extends AppCompatActivity {
         startActivity(new Intent(this, Record.class));
     }
 
+    // This method happens upon the user pressing the "Go To Sound Experimenting" button on the activity_log_in.xml page.
+    public void OpenSound(View view) {
+        // This triggers the activity_sound_experiment.xml page.
+        startActivity(new Intent(this, SoundExperiment.class));
+    }
+
     // This method validates the information entered by the user, and if the login credentials match those on a database, it directs the user to the "user landing" page.
     // WORK IN PROGRESS. MIGHT BE BETTER PLACES IN BACKGROUND WORKER CLASS.
     private void validate(String userName, String passWord){
